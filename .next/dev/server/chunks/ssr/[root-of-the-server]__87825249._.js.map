@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Maria%20Reda/xorithm-server-status/pages/_app.js"],"sourcesContent":["import '../styles/globals.css'\r\nimport { ThemeProvider, createTheme } from '@mui/material/styles'\r\nimport Head from 'next/head'\r\n\r\nconst theme = createTheme({ palette: { mode: 'light' } })\r\n\r\nexport default function App({ Component, pageProps }) {\r\n  return (\r\n    <ThemeProvider theme={theme}>\r\n      <Head>\r\n        <title>XOrithm — Server Status</title>\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\r\n      </Head>\r\n      <Component {...pageProps} />\r\n    </ThemeProvider>\r\n  )\r\n}"],"names":[],"mappings":";;;;;AACA;AAAA;AACA;;;;;AAEA,MAAM,QAAQ,IAAA,kPAAW,EAAC;IAAE,SAAS;QAAE,MAAM;IAAQ;AAAE;AAExC,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE;IAClD,qBACE,qKAAC,wPAAa;QAAC,OAAO;;0BACpB,qKAAC,+JAAI;;kCACH,qKAAC;kCAAM;;;;;;kCACP,qKAAC;wBAAK,MAAK;wBAAW,SAAQ;;;;;;;;;;;;0BAEhC,qKAAC;gBAAW,GAAG,SAAS;;;;;;;;;;;;AAG9B","debugId":null}}]
+}

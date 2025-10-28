@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Maria%20Reda/xorithm-server-status/pages/index.js"],"sourcesContent":["export default function Home() {\r\n  return (\r\n    <main className=\"min-h-screen flex items-center justify-center\">\r\n      <div className=\"text-center\">\r\n        <h1 className=\"text-2xl font-semibold\">XOrithm — Server Status (dev)</h1>\r\n        <p className=\"mt-3 text-gray-600\">Welcome — the app is ready for step 2.</p>\r\n      </div>\r\n    </main>\r\n  )\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,qKAAC;QAAK,WAAU;kBACd,cAAA,qKAAC;YAAI,WAAU;;8BACb,qKAAC;oBAAG,WAAU;8BAAyB;;;;;;8BACvC,qKAAC;oBAAE,WAAU;8BAAqB;;;;;;;;;;;;;;;;;AAI1C","debugId":null}}]
+}
