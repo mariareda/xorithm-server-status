@@ -470,41 +470,60 @@ __turbopack_context__.s([
     ()=>Home
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$xorithm$2d$server$2d$status$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/xorithm-server-status/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$xorithm$2d$server$2d$status$2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/xorithm-server-status/node_modules/next/router.js [client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
 ;
 function Home() {
+    _s();
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$xorithm$2d$server$2d$status$2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$xorithm$2d$server$2d$status$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-        className: "min-h-screen flex items-center justify-center",
+        className: "min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-100 via-white to-blue-100",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$xorithm$2d$server$2d$status$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "text-center",
+            className: "text-center p-10 bg-white rounded-2xl shadow-2xl max-w-md w-full",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$xorithm$2d$server$2d$status$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "text-2xl font-semibold",
-                    children: "XOrithm — Server Status (dev)"
+                    className: "text-3xl font-extrabold text-indigo-700 mb-3",
+                    children: "XOrithm — Server Status"
                 }, void 0, false, {
                     fileName: "[project]/xorithm-server-status/pages/index.js",
-                    lineNumber: 5,
+                    lineNumber: 9,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$xorithm$2d$server$2d$status$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "mt-3 text-gray-600",
-                    children: "Welcome — the app is ready for step 2."
+                    className: "text-gray-600 mb-6",
+                    children: "Welcome to the server status dashboard. Monitor and manage your servers easily."
                 }, void 0, false, {
                     fileName: "[project]/xorithm-server-status/pages/index.js",
-                    lineNumber: 6,
+                    lineNumber: 12,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$xorithm$2d$server$2d$status$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    onClick: ()=>router.push("/login"),
+                    className: "px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg shadow-lg transition-all duration-300",
+                    children: "Go to Login"
+                }, void 0, false, {
+                    fileName: "[project]/xorithm-server-status/pages/index.js",
+                    lineNumber: 17,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/xorithm-server-status/pages/index.js",
-            lineNumber: 4,
+            lineNumber: 8,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/xorithm-server-status/pages/index.js",
-        lineNumber: 3,
+        lineNumber: 7,
         columnNumber: 5
     }, this);
 }
+_s(Home, "fN7XvhJ+p5oE6+Xlo0NJmXpxjC8=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$xorithm$2d$server$2d$status$2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"]
+    ];
+});
 _c = Home;
 var _c;
 __turbopack_context__.k.register(_c, "Home");

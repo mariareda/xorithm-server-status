@@ -1,9 +1,2 @@
-[00:00:00.727] Server  LOG      ✓ Ready in 469ms
-[00:00:11.676] Browser WARN    MUI Grid: The `item` prop has been removed and is no longer necessary. You can safely remove it.
-
-[00:00:11.676] Browser WARN    MUI Grid: The `xs` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
-
-[00:00:11.676] Browser WARN    MUI Grid: The `sm` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
-
-[00:00:11.676] Browser WARN    MUI Grid: The `md` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
-
+[00:00:00.592] Server  ERROR    ⨯ API Routes cannot be used with "output: export". See more info here: https://nextjs.org/docs/advanced-features/static-html-export
+[00:00:00.696] Server  LOG      ✓ Ready in 449ms
