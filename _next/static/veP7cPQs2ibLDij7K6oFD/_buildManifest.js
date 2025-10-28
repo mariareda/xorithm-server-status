@@ -1,27 +1,22 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/a903c54962ba685d.js"
+    "static/chunks/c71e134451f9a0a3.js"
   ],
   "/_error": [
-    "static/chunks/48b004c7e9b2da07.js"
+    "static/chunks/f98575942f867351.js"
   ],
   "/dashboard": [
-    "static/chunks/7b57903fd67aff67.js"
+    "static/chunks/3fd0064d4c0d82fb.js"
   ],
   "/login": [
-    "static/chunks/b047bcb03bc531ab.js"
+    "static/chunks/f6a522559c2f01ce.js"
   ],
   "/signup": [
-    "static/chunks/99f8cce4cabf8ea4.js"
+    "static/chunks/c904a12418d7d533.js"
   ],
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [
-      {
-        "source": "/xorithm-server-status//_next/:path+",
-        "destination": "/xorithm-server-status/_next/:path+"
-      }
-    ],
+    "beforeFiles": [],
     "fallback": []
   },
   "sortedPages": [
